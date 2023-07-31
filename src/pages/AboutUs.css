@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-header {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(about-us.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motto {
+    font-weight: normal;
+    color: white;
+}
+
+.about-us-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #F1E3D3;
+    font-size: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.about-us-section {
+    width: 100%;
+    height: 80vh;
+    background-color: #F1E3D3;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us-paragraph {
+    padding: 2rem;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+.about-us-image {
+    width: auto;
+    border-radius: 10px;
+}
+
+.morals-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #F2D0A9;
+    font-size: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.morals-section {
+    width: 100%;
+    height: 90vh;
+    background-color: #F2D0A9;
+    overflow-y: scroll;
+}
+
+.morals-paragraph {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-y: scroll;
+}
+
+.client-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #BFD3C1;
+    font-size: 4rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+.client-section {
+    width: 100%;
+    height: 100vh;
+    background-color: #BFD3C1;
+    overflow-y: scroll;
+}
+
+.client-paragraph {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.privacypolicy-p {
+    font-size: 1rem;
+    text-align: center;
+    width: 90%;
+}
+
+.privacy-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 827px) {
+    .about-us-div, .client-div {
+        font-size: 2.5rem;
+    }
+
+    .about-us-image {
+        display: none;
+        
+    }
+
+    .morals-paragraph, .client-paragraph {
+        font-size: 1.5rem;
+        
+    }
+
+    .morals-div {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+.about-us-paragraph {
+    font-size: 1rem;
+}
+
+    .about-us-div {
+        font-size: 2rem;
+    }
+
+    .morals-paragraph, .client-paragraph {
+        font-size: 1rem;
+    }
+
+    .morals-div {
+        font-size: 2.5rem;
+    }
+}

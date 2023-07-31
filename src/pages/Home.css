@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #D7FFF1;
+}
+
+.home-header {
+    width: 100%;
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(header.png);
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motto {
+    font-weight: normal;
+    color: white;
+}
+
+.mission-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #F4FAF8;
+}
+
+.mission-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding-top: 5vh;
+    font-size: 3rem;
+    font-weight: normal;
+    color: #000000;
+}
+
+.mission-paragraph {
+    padding-top: 3%;
+    padding-left: 10vh;
+    color: #000000;
+    font-size: calc(15px + 0.390625vw);
+    font-weight: 500;
+    text-align: justify;
+    display: inline;
+    word-break: break-word;
+    padding-right: 10vh;
+}
+
+.mission-title {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4FAF8;
+    color: #000000;
+    font-weight: 400;
+    padding-top: 10vh;
+}
+
+.mission {
+    width: 55vh;
+    border-radius: 5%;
+    margin-right: 10vh;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+
+.service-title {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #93E1D8;
+    color: #ffffff;
+    font-weight: 400;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.service-section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #93E1D8;
+    background-position: center center;
+}
+
+.service-bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28rem;
+    height: auto;
+    margin: 1rem;
+    background-color: #DDFFF7;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.fa-brands {
+    padding-bottom: 4rem;
+    font-size: 10rem;
+    color: #7dbdb6;
+}
+
+.service-paragraph {
+    font-size: calc(30px + 0.390625vw);
+    font-weight: bold;
+    color: #64938d;
+}
+
+.why-title {
+    text-align: center;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6E8EA;
+    color: #000000;
+    font-weight: 400;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.why-section {
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F6E8EA;
+}
+
+.why-div {
+    width: 90%;
+    margin-top: 2vh;
+    height: 40vh;
+    background-color: #F45B69;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.fa-1 {
+    font-size: 6rem;
+    padding: 5rem;
+    color: #712d33;
+}
+
+.fa-2 {
+    font-size: 6rem;
+    padding: 5rem;
+    color: #712d33;
+}
+
+.fa-3 {
+    font-size: 6rem;
+    padding: 5rem;
+    color: #712d33;
+}
+
+.why-paragraph {
+    font-size: calc(15px + 0.390625vw);
+    word-wrap: normal;
+    word-break: break-word;
+    padding-right: 1rem;
+    color: #63282d;
+}
+
+footer {
+    width: 100%;
+    height: 55vh;
+    background-color: #285943;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-top-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-div1 {
+    width: 40vh;
+}
+
+.title-footer-div, .title-footer-more {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #1a392b;
+    text-align: center;
+}
+
+.footer-ul {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.footer-li {
+    color: #66A182;
+}
+
+@media screen and (max-width: 1375px){
+    .mission-paragraph {
+        font-size: 1.3rem;
+    }
+    .mission {
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    .mission-paragraph {
+        font-size:1.2rem
+    }
+    .mission {
+        width: 45vh;
+    }
+}
+
+@media screen and (max-width: 1105px) {
+    .mission-paragraph {
+        font-size:1.1rem
+    }
+    .mission {
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width: 1013px) {
+    .mission-paragraph {
+        font-size:1rem
+    }
+
+    .fa-brands {
+        font-size: 8rem;
+    }
+
+    .service-bubble {
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .service-bubble {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .mission-paragraph {
+        font-size:0.9rem
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .mission-paragraph {
+        font-size:0.8rem;
+        word-wrap: break-word;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .mission-title {
+        font-size: 3rem;
+    }
+    .mission {
+        display: none;
+    }
+
+    .mission-section {
+        height: fit-content;
+    }
+
+    .service-bubble {
+        height: 45vh;
+    }
+
+    .fa-brands {
+        font-size: 6rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .service-bubble {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .motto {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .motto {
+        font-size: 1.5rem;
+    }
+    .service-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .fa-1, .fa-2, .fa-3 {
+        font-size: 3.5rem;
+        height: 2rem;
+    }
+
+    .why-paragraph {
+        overflow-y: scroll;
+        text-align: center;
+        height: auto;
+        margin-bottom: 5%;
+    }
+
+    .service-bubble {
+        width: auto;
+    }
+
+    .mission-paragraph {
+        padding: 1vh;
+        font-size: 1rem;
+        overflow-y: scroll;
+    }
+
+    .mission-title {
+        font-size: 3rem;
+        padding-top: 1rem;
+    }
+
+    .why-div {
+        flex-direction: column;
+    }
+
+    .title-footer-div {
+        font-size: 1.5rem;
+    }
+
+    .footer-li {
+        font-size: 1.5rem;
+    }
+}
+
